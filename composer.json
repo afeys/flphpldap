@@ -1,0 +1,33 @@
+{
+    "name": "afeys/flphpldap",
+    "description": "Provides access to LDAP",
+    "keywords": [
+        "ldap", "chainable"
+    ],
+    "homepage": "https://github.com/afeys/flphpldap",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andy Feys",
+            "email": "gitprojects@feys.be",
+            "homepage": "http://www.feys.be"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "support": {
+        "issues": "https://github.com/afeys/flphpldap/issues",
+        "source": "https://github.com/afeys/flphpldap/"
+    },
+    "autoload": {
+        "psr-4": { "flphpldap\\": "src/" },
+        "files": ["src/init.php"]
+    },
+    "autoload-dev": {
+        "classmap": [ "tests" ]
+    }
+}
